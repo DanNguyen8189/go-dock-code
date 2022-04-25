@@ -1,4 +1,4 @@
-name: Publish to Dockerhub
+name: Publish to Dockerhub (test)
 
 on:
   push:
