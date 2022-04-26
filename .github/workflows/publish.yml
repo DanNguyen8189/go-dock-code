@@ -42,4 +42,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/lura:latest, ${{ secrets.DOCKERHUB_USERNAME }}/lura:${{ steps.version-bump.outputs.newTag }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/lura:${{ steps.version-bump.outputs.newTag }}
