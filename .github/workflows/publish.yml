@@ -40,4 +40,4 @@ jobs:
           token: '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'
           repository: DanNguyen8189/helm-test
           event-type: my-event
-          client-payload: '{"testing": "testing"}'
+          client-payload: '{"testing!": "testing"}'
